@@ -19,7 +19,7 @@ db = SQLAlchemy(app)
 
 @app.route('/index')
 @app.route('/')
-def hello_flask():
+def hello_flask():git
     return 'Hello Flask'
 
 
